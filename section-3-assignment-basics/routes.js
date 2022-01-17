@@ -21,11 +21,12 @@ const manageRequest = (request, response) => {
             const parsedIO = Buffer.concat(io).toString();
             const resultIO = parsedIO.split('=')[1];
             console.log(resultIO);
-            response.statusCode = 302;
-            
-            response.setHeader('Location','/users');
-            response.end();
+         
         });
+        response.statusCode = 302;
+            
+        response.setHeader('Location','/users');
+        response.end(); 
         // console.log("SIUUUUU!");
         // return response.end();
     }
