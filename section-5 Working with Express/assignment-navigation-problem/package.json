@@ -1,0 +1,18 @@
+{
+  "name": "assignment-navigation-problem",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "navApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node navApp.js"
+  },
+  "author": "Carlos Alonzo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
