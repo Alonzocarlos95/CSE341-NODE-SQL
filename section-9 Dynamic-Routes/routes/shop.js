@@ -11,7 +11,11 @@ router.get('/', shopController.getIndex);
 
 router.get('/products', shopController.getProducts);
 
+router.get('/products/:productId', shopController.getProduct); //Tell the express that there will be a dynamic variable
+
 router.get('/cart', shopController.getCart);
+
+router.post('/cart', shopController.postCart);
 
 router.get('/orders', shopController.getOrders);
 
